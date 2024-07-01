@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class HelloWorld {
     public static void mergesort(int[] arr,int i,int j){
-        if(i>=j) return;
+        if(i==j) return;
         int mid=(i+j)/2;
         mergesort(arr,i,mid);
         mergesort(arr,mid+1,j);
